@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.757
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{BB056463-4805-42A3-A22A-FF32DAAE6D81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VeiwModel", "VeiwModel\VeiwModel.csproj", "{46EF0D92-2AA0-4EAB-A8DC-929BB7DDDB32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "veiw", "veiw\veiw.csproj", "{390EE25F-7445-4C7F-92D9-3D9EADCD4FA1}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB056463-4805-42A3-A22A-FF32DAAE6D81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB056463-4805-42A3-A22A-FF32DAAE6D81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB056463-4805-42A3-A22A-FF32DAAE6D81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB056463-4805-42A3-A22A-FF32DAAE6D81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46EF0D92-2AA0-4EAB-A8DC-929BB7DDDB32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46EF0D92-2AA0-4EAB-A8DC-929BB7DDDB32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46EF0D92-2AA0-4EAB-A8DC-929BB7DDDB32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46EF0D92-2AA0-4EAB-A8DC-929BB7DDDB32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{390EE25F-7445-4C7F-92D9-3D9EADCD4FA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{390EE25F-7445-4C7F-92D9-3D9EADCD4FA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{390EE25F-7445-4C7F-92D9-3D9EADCD4FA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{390EE25F-7445-4C7F-92D9-3D9EADCD4FA1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
